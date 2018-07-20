@@ -76,19 +76,3 @@ public class NextGreater{
         return list;
     }
 }    
-
-while (head != null)
-{
-   LN cur = head;
-   head = head.next;
-   if (cur.data % 2 == 0)
-   {
-      cur.next = even;
-      even = cur;
-   }
-   else
-   {
-      cur.next = odd;
-      odd = cur;      
-   }
-}

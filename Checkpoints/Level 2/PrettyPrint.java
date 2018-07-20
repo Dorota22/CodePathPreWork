@@ -79,7 +79,6 @@ public class PrettyPrint {
                 list.add(list.size() - outer, row);
             }
         }
-        return list;
-        
+        return list;        
     }
 }
